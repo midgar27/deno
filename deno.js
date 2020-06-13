@@ -1,5 +1,8 @@
-function a() {
-  console.log(42)
-}
+const food = Deno.args[0]
 
-a()
+
+if (food === 'love') {
+  console.log('🦕...Deno is born!')
+} else {
+  console.log('🥚...this egg needs some love')
+}
